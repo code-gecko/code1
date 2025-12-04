@@ -1,0 +1,56 @@
+
+html{
+     scroll-behavior: smooth;
+}
+
+h1{
+    color: rgb(143, 219, 245);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    width: 250px;
+    height: 350px;
+}
+a:hover{
+    color: rgb(253, 252, 251);
+    font-weight: bolder;
+    border:rgb(154, 154, 206); 
+    font-size: 17px; 
+    padding: 7px;
+    border-radius: 15px;
+    background-color:rgb(157, 157, 241) ;
+}
+.product:hover{
+   color: rgb(131, 111, 243);
+    font-weight: bolder;
+    border:rgb(160, 160, 216); 
+    font-size: 17px; 
+    padding: 7px;
+    border-radius: 15px;
+    background-color:rgb(240, 240, 243) ; 
+}
+#contact{
+    text-align: center;
+}
+.detail{
+    padding: 5%;
+    font-size: 140%;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+.class{
+    align-items: center;
+}
+
+nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      position: sticky;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }

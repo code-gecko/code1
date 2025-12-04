@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+  margin-right: 75%;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+h1{
+    font-size: 4em;
+}
+h2{
+  font-size: 3em;
+}
+.action-btnn{
+  color: white;
+  background-color: rgb(76, 189, 169); 
+  height: 10%;
+  width: 0%;
+   border-radius: 10px;
+}
+.action-btnn:hover{
+  background-color: rgb(154, 167, 162);
+}
+
+.login{
+    width: 60%;
+    height: 90%;
+    /* background-color: #0083b0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    gap: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgb(250, 249, 249);
+    box-shadow: 2px 2px 2px  rgb(76, 189, 169);;
+    
+
+}
+.login button{
+    width: 55%;
+
+}
+input[type="password"], input[type="email"]{
+    padding: 5px;
+    background-color:rgb(235, 226, 226) ;
+    border-bottom: solid black 1px;
+    outline: 0px;
+    box-shadow: 2px 2px 2px rgb(140, 141, 140);
+    border: none;
+    border-radius: 10px;
+    width: 55%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.login-section {
+    display: flex;
+  flex: 2;
+  flex-direction: column;
+  align-content:center ;
+  background:rgb(236, 241, 236);
+  padding: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+.signup-section {
+  flex: 1;
+  background: rgb(76, 189, 169);
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-btn, .action-btn {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.action-btn {
+  display: flex;
+  background-color: #eff1f2;
+  color: #070707;
+  width: 50%;
+  align-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-left: 25%;
+}
+.action-btn:hover{
+  background-color: rgb(154, 167, 162);
+}
+img{
+  align-items: flex-start;
+  align-content:  flex-start;
+}
+.signup{
+border-radius: 3px;
+padding: 10px;
+width: 80%;
+background-color: rgb(76, 189, 169);
+box-shadow: 2px 2px 2px rgb(76, 189, 169);
+}
+input[type="Name"],input[type="Address"],input[type="Nationality"], input[type="your gender"]{
+display: flex;
+  width: 100%;
+padding: 10px;
+  background-color:rgb(235, 226, 226);
+  border-radius: 10px;
+  align-content: space-around 30px;
+  border-color: rgb(76, 189, 169);
+
+}
